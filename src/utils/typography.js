@@ -1,7 +1,7 @@
 import Typography from 'typography'
-import grandViewTheme from 'typography-theme-grand-view'
+import altonTheme from 'typography-theme-alton'
 
-const typography = new Typography(grandViewTheme)
+const typography = new Typography(altonTheme)
 
 // Export helper functions
 export const { scale, rhythm, options } = typography
