@@ -3,7 +3,9 @@ import styles from "./slack-form.module.css"
 
 const SlackForm = () => (
   <div className={ styles.container }>
-    <form name="slack-sign-up" method="POST" action="#" data-netlify="true">
+    <form name="slack-sign-up" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+      <input type="hidden" name="bot-field" />
+      <input type="hidden" name="form-name" value="slack-sign-up" />
       <label className={ styles.label }>
         Name
         <input type="text" name="name" id="name" />
