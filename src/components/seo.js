@@ -46,7 +46,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:description`,
-          content: metaDescription,
+          content: `WordPress Women of Color is a community that strives to spark ✨ and connect 🔌 cis and transgender women and non-binary people of color throughout the wonderful WordPress community.`,
         },
         {
           property: `og:image`,
@@ -58,7 +58,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:card`,
-          content: `WordPress Women of Color is a community that strives to spark and connect cis and transgender women and non-binary people of color throughout the wonderful WordPress community.`,
+          content: metaDescription,
         },
         {
           name: `twitter:creator`,
