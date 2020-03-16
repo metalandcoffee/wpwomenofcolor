@@ -21,6 +21,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            url
           }
         }
       }
@@ -51,7 +52,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: Emoji,
+          content: `${site.siteMetadata.url}${Emoji}`,
         },
         {
           property: `og:type`,
