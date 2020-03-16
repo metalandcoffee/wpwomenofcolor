@@ -2,6 +2,61 @@
     padding: 30px;
 }
 
+.container form {
+    display: grid;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
 label {
-    display: block;
+    display: grid;
+    grid-template-columns: 233px auto;
+    align-items: center;
+    grid-gap: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+    label {
+        grid-template-columns: auto;
+        grid-gap: 0;
+    }
+  }
+
+label p {
+    margin: 0;
+}
+
+label input {
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .25s ease-in-out,box-shadow .25s ease-in-out;
+}
+
+label input:focus, textarea:focus {
+    outline: none;
+    border-color: #fbcffc;
+    box-shadow: 0 0 0 0.2rem rgba(251, 207, 252,.55);
+}
+
+.submit {
+    justify-self: center;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #cff1ef;
+    border-color: #cff1ef;
+    transition: background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+
+.submit:hover {
+    background-color: #98deda;
+    border-color: #98deda;
+}
+
+textarea {
+    resize: none;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    border: 1px solid #ced4da;
 }

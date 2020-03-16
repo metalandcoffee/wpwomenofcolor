@@ -15,5 +15,6 @@ footer {
 }
 
 .link:hover {
-    color: #cff1ef;
+    color: #fbcffc;
+    border-bottom: 5px #fbcffc solid;
 }
