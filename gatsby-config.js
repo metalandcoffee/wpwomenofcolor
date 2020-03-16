@@ -3,7 +3,7 @@ module.exports = {
     title: `WPWOC`,
     description: `WordPress Women of Color`,
     author: `@metalandcoffee_`,
-    image: `src/images/fav-icon.png`,
+    image: `/images/image.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
