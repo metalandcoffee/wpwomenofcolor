@@ -1,0 +1,19 @@
+footer {
+    background-color: #be79df;
+}
+
+.credit {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+    color: #fff;
+}
+
+.link {
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.link:hover {
+    color: #cff1ef;
+}

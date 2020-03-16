@@ -1,0 +1,3 @@
+.heading::first-letter {
+    border-bottom: 5px #fbcffc solid;
+}

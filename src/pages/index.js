@@ -3,20 +3,24 @@ import React from "react"
 
 import Layout from "../components/layout"
 //import Image from "../components/image"
+import Form from "../components/slack-form"
 import SEO from "../components/seo"
+import styles from "./index.module.css"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>WordPress Women of Color</h1>
-    <p>WordPress Women of Color is a community that strives to connect <span role="img" aria-label="plug-emoji">🔌</span> and spark <span role="img" aria-label="sparkle-emoji">✨</span> women, trans-women, and non-binary adults of color throughout the wonderful WordPress community.</p>
+    <h1 className={ styles.heading }>WordPress Women of Color</h1>
+    <p>WordPress Women of Color is a community that strives to spark <span role="img" aria-label="sparkle-emoji">✨</span> and connect <span role="img" aria-label="plug-emoji">🔌</span> cis and transgender women and non-binary people of color throughout the wonderful WordPress community.</p>
     <ul>
-      <li>Are you a casual enjoyer of WordPress</li>
+      <li>Are you a casual enjoyer of WordPress?</li>
       <li>Are you an ultimate power user of WordPress?</li>
       <li>Do you develop themes & plugins for WordPress?</li>
     </ul>
-    <p>Join our community for a safe space to connect with poeple who look like you in the WordPress community.</p>
+    <p><strong>and</strong> are you a womxn or a non-binary person of color?</p>
+    <p>Join our community for a safe space to connect with people who look like you in the WordPress community.</p>
     <p>Sign up for the Slack community!</p>
+    <Form />
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div> */}
