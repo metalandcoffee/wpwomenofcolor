@@ -9,8 +9,10 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import Emoji from "../images/fav-icon.png"
 
 function SEO({ description, lang, meta, title }) {
+  console.log(Emoji);
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -19,8 +21,6 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
-            url
-            image
           }
         }
       }
@@ -51,7 +51,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: `${site.siteMetadata.url}${site.siteMetadata.image}`,
+          content: Emoji,
         },
         {
           property: `og:type`,
