@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `WPWOC`,
-    description: ``,
+    description: `WordPress Women of Color`,
     author: `@metalandcoffee_`,
+    image: `src/images/fav-icon.png`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
