@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `WPWOC`,
+    url: `https://wpwomenofcolor.com`,
     description: `WordPress Women of Color`,
     author: `@metalandcoffee_`,
     image: `/images/image.png`,

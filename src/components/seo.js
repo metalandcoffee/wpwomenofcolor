@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
             title
             description
             author
+            url
             image
           }
         }
@@ -50,7 +51,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:image`,
-          content: site.siteMetadata.image,
+          content: `${site.siteMetadata.url}${site.siteMetadata.image}`,
         },
         {
           property: `og:type`,
