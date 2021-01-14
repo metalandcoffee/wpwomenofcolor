@@ -20,6 +20,7 @@ const IndexPage = () => (
     <p><strong>and</strong> are you a womxn or a non-binary person of color?</p>
     <p>Join our community for a safe space to connect with people who look like you in the WordPress community.</p>
     <p>Sign up for the Slack community!</p>
+    <p>This community was founded by <a href="https://profiles.wordpress.org/metalandcoffee/">Ebonie Butler</a> on her last day at WordCamp St. Louis 2019. See her tweet <a href="https://twitter.com/metalandcoffee_/status/1191346394843557888">here!</a></p>
     <Form />
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
